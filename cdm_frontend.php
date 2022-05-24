@@ -1,7 +1,7 @@
 <?php
 
 /**
- *
+ **
  *asdasd
  * @param $object örnek menü elemanı modeli.
  * @param $item_metas Menu elemanı ayarları

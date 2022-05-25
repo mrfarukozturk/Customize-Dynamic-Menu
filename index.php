@@ -22,9 +22,9 @@ class Customize_Dynamic_Menu{
         public function cdm_nav_menu_links() {
     
             ?>
-        <div id="posttype-woocommerce-endpointsx" class="posttypediv">
-            <div id="tabs-panel-woocommerce-endpoints" class="tabs-panel tabs-panel-active">
-                <ul id="woocommerce-endpoints-checklist" class="categorychecklist form-no-clear">
+        <div id="termtype_cdm" class="posttypediv">
+            <div id="tabs-panel-termtype-cdm" class="tabs-panel tabs-panel-active">
+                <ul id="termtype-cdm-checklist" class="categorychecklist form-no-clear">
                     <li>
                         <label class="menu-item-title">
                             <input type="checkbox" class="menu-item-checkbox" name="menu-item[-1][menu-item-object-id]" value="0" />
@@ -46,11 +46,8 @@ class Customize_Dynamic_Menu{
                 </ul>
             </div>
             <p class="button-controls">
-                <span class="list-controls">
-                    <a href="<?php echo esc_url( admin_url( 'nav-menus.php?page-tab=all&selectall=1#posttype-woocommerce-endpoints' ) ); ?>" class="select-all"><?php esc_html_e( 'Select all', 'woocommerce' ); ?></a>
-                </span>
                 <span class="add-to-menu">
-                    <button type="submit" class="button-secondary submit-add-to-menu right" value="<?php esc_attr_e( 'Add to menu', 'woocommerce' ); ?>" name="add-post-type-menu-item" id="submit-posttype-woocommerce-endpointsx"><?php esc_html_e( 'Add to menu', 'woocommerce' ); ?></button>
+                    <button type="submit" class="button-secondary submit-add-to-menu right" value="<?php esc_attr_e( 'Add to menu', 'woocommerce' ); ?>" name="add-post-type-menu-item" id="submit-termtype_cdm"><?php esc_html_e( 'Add to menu', 'woocommerce' ); ?></button>
                     <span class="spinner"></span>
                 </span>
             </p>
